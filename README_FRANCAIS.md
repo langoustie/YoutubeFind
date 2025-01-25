@@ -1,5 +1,7 @@
 Les étapes principales incluent l'authentification de l'utilisateur via OAuth 2.0, la récupération d'une liste de chaînes auxquelles l'utilisateur est abonné,
 la recherche de vidéos en fonction de chaînes et de mots-clés, puis la collecte des commentaires de l'utilisateur sur ces vidéos.
+Le but  dde ce projet est de pouvoir faire des dataset de commentaires des bots de propagande, des trolls et des  gens qui ont été manipulé par la désinformation sur YTB et de mieux les identifier et de pouvoir quantifier et voir l'évolution des opinions sur YTB.
+Ce projet à été utilisé pour analyser les campagnes de désinformations Russe lors du début de la guerre en Ukraine et leurs impactes.
 
 Le script est conçu pour :
 
