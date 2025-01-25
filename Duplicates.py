@@ -1,3 +1,5 @@
+#If you have the same comments 2 times in your sheet, use this script to erase it or them.
+
 def remove_duplicates(file_path):
     unique_lines = set()
 
