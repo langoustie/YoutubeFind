@@ -1,0 +1,2 @@
+PUT THE YTB API SECRET KEY HERE (YOU CAN DOWNLOAD THE SECRET KEY AS A JS FILE) go here => https://developers.google.com 
+THE YTB API KEY IS FREE.
