@@ -126,7 +126,7 @@ if __name__ == "__main__":
     subscribed_channel_ids = get_subscribed_channel_ids(youtube, user_channel_ids)
     print(f"Subscribed channel IDs: {subscribed_channel_ids}")
 
-    # Define specific channel IDs
+    # Define specific channel IDs of media or channel users can post comments.
     channel_ids = [
         "UCW2QcKZiU8aUGg4yxCIditg", "UCfU2oLt2NnK9Te6NCN3UEJw", 
         "UCWvorN5uzvFhA7zJst6NKTg", "UCW5Jb8DlHXphrZVsXEWTVqg", 
@@ -140,7 +140,7 @@ if __name__ == "__main__":
         "UC6ZbGuT_zebhXkV-OeRzSoQ", 
     ]  # Replace with actual channel IDs
 
-    keywords = ["Poutine", "Russie", "Moscou", "Ukraine", "Ukrainiens", "russe", "Russe", "kharkiv", "Europe", "RN", "Election", "Elections"]
+    keywords = ["Election 2024"] # will only take into account videos that have these keywords in their title, saving on API requests.
     published_after = (datetime.datetime.utcnow() - datetime.timedelta(days=30)).isoformat("T") + "Z"
 
     # Search videos with keywords for specified channels
