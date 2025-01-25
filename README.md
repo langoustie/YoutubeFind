@@ -1,5 +1,4 @@
-The main steps include authenticating the user via OAuth 2.0, retrieving a list of subscribed channels, 
-searching for videos by specified channels and keywords, and then collecting comments made by the user on those videos.
+The main stages of the project include authenticating the user via OAuth 2.0, retrieving the channels to which the user has subscribed, searching for videos based on channels and keywords, and collecting the user's comments on these videos. The main aim of this project is to create datasets of comments from propaganda bots, trolls and individuals influenced by misinformation on YouTube. The aim is to better understand and identify these groups, while quantifying and tracking the evolution of public opinion on the platform. In particular, this project was used to analyze Russian disinformation campaigns at the start of the war in Ukraine and assess their impact on online discussions.
 
 The script is designed to:
 
